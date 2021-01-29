@@ -1,0 +1,79 @@
+{
+  "Account": {
+    "Username": "naha?",
+    "Password": "naha?##",
+    "Currency": "Doge",
+    "2FA": "OFF",
+    "Auto Proxy": "OFF",
+    "API Access": "OFF"
+  },
+  "Target Profit": "50",
+  "Target Win": "51000",
+  "Lose Target": "0",
+  "Interval": "0",
+  "Betset": [
+    {
+      "Name Bet Set": "00 - @ SETTING",
+      "Base Bet": "0.001",
+      "Stop Max Bet": "OFF",
+      "Max Bet": "OFF",
+      "Chance": "50",
+      "Random Chance": {
+        "Toggle": "OFF",
+        "Min": "25",
+        "Max": "45"
+      },
+      "Bet": {
+        "Bet": "Low",
+        "Hi / Low": {
+          "Toggle": "ON",
+          "If Lose": "5",
+          "If Win": "5"
+        }
+      },
+      "Mode1": {
+        "Toggle": "OFF",
+        "Prebet": "0.0001",
+        "Start Strike If Win": "1",
+        "Limit Strike If Win": "2",
+        "Start Multi": "1.7",
+        "Limit Multi": "2"
+      },
+      "Mode2": {
+        "Toggle": "ON",
+        "Prebet": "0.001",
+        "Preroll": "3",
+        "Multipler": "3"
+      },
+      "Mode3": {
+        "Toggle": "OFF",
+        "Prebet": "0.00000001",
+        "Preroll": "5",
+        "Multipler": "1.5",
+        "Max LS Strike": "80"
+      },
+      "Fibonacci1": {
+        "Toggle": "OFF",
+        "Prebet": "0.00000001",
+        "Preroll": "40",
+        "Max LS Strike": "80"
+      },
+      "If Win": "1",
+      "If Lose": "2",
+      "Reset If Win": "1",
+      "Reset If Profit": "0.00000001",
+      "Interval": "0"
+    }
+  ],
+  "Proxy Manual": {
+    "Toggle": "OFF",
+    "Ip": "103.152.119.231",
+    "Port": "8080"
+  },
+  "Auto Wd": {
+    "Toggle": "OFF",
+    "If Balance": "0",
+    "Wallet Address": "XXXXXXX",
+    "Amount": "0"
+  }
+}
